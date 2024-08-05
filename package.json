@@ -1,0 +1,22 @@
+{
+  "name": "test_casting",
+  "lockfileVersion": 3,
+  "requires": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "packages": {
+    "castv2-client": "^1.2.0"
+  },
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodecastor": "^0.1.9",
+    "ping": "^0.4.4"
+  }
+}
